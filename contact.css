@@ -1,0 +1,7 @@
+.nav{
+   list-style: none;
+   Display:flex;
+   align-items:center;
+   justify-content: space-between;
+   background-color: black;
+}
