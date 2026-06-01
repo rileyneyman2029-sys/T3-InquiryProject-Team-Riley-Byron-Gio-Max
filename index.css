@@ -5,12 +5,20 @@ header {
     list-style: none;
     display:flex;
     justify-content: space-between;
-    text-decoration: none;
     background-color: black;
-    color:white;
     overflow:hidden;
 }
 a{
     color:white;
     text-decoration:none;
+}
+.logo{
+    margin-right: auto;
+}
+.nav li:not(.logo){
+    margin-left: 1.5rem;
+}
+.hero{
+    width:100vw;
+    height:100vh;
 }
