@@ -50,6 +50,11 @@ main {
 .main2{
     flex-direction: row-reverse;
 }
+.cta{
+     text-align: center;
+    padding: 5vw 2vw;
+    background-color: #f8f8f8;
+}
 .cta-button {
     background-color: black;
     color: white;
@@ -58,6 +63,8 @@ main {
     font-size: 1.2rem;
     font-weight: bold;
     padding:.5vw;
+    display:inline-block;
+    margin-top: 1vw;
 }
 .footer-section{
     display:flex;
