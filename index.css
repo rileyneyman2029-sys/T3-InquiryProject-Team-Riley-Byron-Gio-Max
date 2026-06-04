@@ -46,9 +46,20 @@ main {
     align-items: center;
     gap: 3rem;
     justify-content: center;
+    padding:2vw;
 }
 .main2{
     flex-direction: row-reverse;
+}
+
+.image1, .image2{
+    width:40vw;
+    height:60vh;
+}
+.quotes {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
 }
 .cta{
      text-align: center;
