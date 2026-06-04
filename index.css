@@ -16,7 +16,7 @@ header {
     background-color: black;
     gap:.5vw;
     height:5vh;
-    width:100vw;
+    width:100%;
 }
 a{
     color:white;
@@ -29,6 +29,38 @@ a{
     margin-left: 1.5rem;
 }
 .hero{
-    width:100vw;
-    height:100vh;
+    width:100%;
+    height:100%;
+}
+.hero-image{
+     width: 100%;
+    height: 95vh;
+}
+main {
+    display: flex;
+    flex-direction: column;
+    
+}
+.main1, .main2 {
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+    justify-content: center;
+}
+.main2{
+    flex-direction: row-reverse;
+}
+.cta-button {
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding:.5vw;
+}
+.footer-section{
+    display:flex;
+    flex-direction:row;
+    gap:2vw;
 }
